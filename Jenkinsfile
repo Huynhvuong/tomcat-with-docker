@@ -17,5 +17,9 @@ stages{
                 }
             }
         }
+        stage('Deploy to Stagging')
+            steps{
+                build job: 'Deploy-to-staging'
+            }
     }
 }
