@@ -19,7 +19,7 @@ stages{
         }
         stage('Deploy to Stagging 2'){
               steps{
-                build job: 'Deploy-to-staging-2'
+                build job: 'deploy-to-staging'
             }
         }
           
