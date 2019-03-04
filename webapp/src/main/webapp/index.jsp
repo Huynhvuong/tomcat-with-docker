@@ -1,2 +1,2 @@
 Hello Monday
-This is the demo Jenkins of Vuong Huynh Macpro
+This is the demo Jenkins of Vuong Huynh Linux
