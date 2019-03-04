@@ -17,9 +17,9 @@ stages{
                 }
             }
         }
-        stage('Deploy to Stagging')
+        stage('Deploy to Stagging 2')
             steps{
-                build job: 'Deploy-to-staging'
+                build job: 'Deploy-to-staging-2'
             }
     }
 }
