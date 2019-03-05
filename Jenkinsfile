@@ -30,6 +30,7 @@ stages{
             parallel{
                 stage ('Deploy to Staging'){
                     steps {
+                        exec sudo "vuong" "!@#4"
                         sh "scp -i /home/vuong/.ssh/id_rsa **/target/*.war root@${params.tomcat_dev}:/var/lib/tomcat7/webapps"
                     }
                 }
