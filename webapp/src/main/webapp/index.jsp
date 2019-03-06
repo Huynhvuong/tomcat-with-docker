@@ -1,2 +1,2 @@
-Hello Tuesday
-This is the demo Jenkins of Vuong Huynh Linux
+Hello Thursday
+This is the demo Jenkins with Docker of Vuong Huynh
