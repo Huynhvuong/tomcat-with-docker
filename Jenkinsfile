@@ -13,7 +13,7 @@ pipeline {
             steps {
                 sh 'mvn clean package'
                 sh "docker build . -t tomcatwebapp:${env.BUILD_ID}"
-                sh "docker run -d --name tomcat-${env.BUILD_ID} -p 8181:8080 tomcatwebapp:${env.BUILD_ID} bash"
+                sh "docker run -d  -p 8181:8080 --name tomcat-${env.BUILD_ID} tomcatwebapp:${env.BUILD_ID}"
             }
         }
     }
