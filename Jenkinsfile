@@ -2,10 +2,9 @@ pipeline {
     agent any
     tools {
         maven 'localMaven'
-    }
-    tools {
         docker 'LocalDocker'
     }
+    
 
     triggers {
          pollSCM('* * * * *')
