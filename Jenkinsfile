@@ -3,9 +3,6 @@ pipeline {
     tools {
         maven 'localMaven'
     }
-    tools {
-    Docker 'LocalDocker'
-    }
 
     triggers {
          pollSCM('* * * * *')
