@@ -2,7 +2,7 @@ pipeline {
     agent any
     tools {
         maven 'localMaven'
-        org.jenkinsci.plugins.docker.commons.tools.DockerTool 'LocalDocker'
+        DockerTool 'LocalDocker'
     }
     
 
