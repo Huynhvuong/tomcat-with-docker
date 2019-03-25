@@ -4,7 +4,7 @@ pipeline {
         maven 'localMaven'
     }
     tools {
-    docker 'LocalDocker'
+    Docker 'LocalDocker'
     }
 
     triggers {
